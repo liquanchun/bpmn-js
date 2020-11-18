@@ -4,6 +4,8 @@
     <bpmn:dataObjectReference id="DataObjectReference_1" dataObjectRef="DataObject" />
     <bpmn:dataObject id="DataObject" />
     <bpmn:dataObjectReference id="DataObjectReference_2" dataObjectRef="DataObject" />
+    <bpmn:dataStoreReference id="DataStoreReference_1" dataStoreRef="DataStore" />
+    <bpmn:dataStore id="DataStore" />
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process">
@@ -17,6 +19,12 @@
         <dc:Bounds x="301" y="184" width="36" height="50" />
         <bpmndi:BPMNLabel>
           <dc:Bounds x="274" y="234" width="90" height="20" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataStoreReference_1_di" bpmnElement="DataStoreReference_1">
+        <dc:Bounds x="401" y="184" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="374" y="234" width="90" height="20" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>
